@@ -1,0 +1,13 @@
+2020-04-19 11:17:28,836 INFO : sun star info requested
+2020-04-19 11:17:28,836 WARNING : Star not in database
+2020-04-19 11:17:28,836 INFO : 127.0.0.1 - - [19/Apr/2020 11:17:28] "[37mGET /starinfo/sun HTTP/1.1[0m" 200 -
+2020-04-19 11:17:41,301 INFO : Sun star info requested
+2020-04-19 11:17:41,301 INFO : Star data returned: "name": Sun, "distance": 896335, "category": star
+2020-04-19 11:17:41,301 INFO : 127.0.0.1 - - [19/Apr/2020 11:17:41] "[37mGET /starinfo/Sun HTTP/1.1[0m" 200 -
+2020-04-19 11:17:47,509 INFO : Full database returned
+2020-04-19 11:17:47,509 INFO : 127.0.0.1 - - [19/Apr/2020 11:17:47] "[37mGET /all HTTP/1.1[0m" 200 -
+2020-04-19 11:18:06,645 INFO : Earth planet info requested
+2020-04-19 11:18:06,646 INFO : Planet data returned: "name": Earth, "distance": 2563389, "category": planet
+2020-04-19 11:18:06,646 INFO : 127.0.0.1 - - [19/Apr/2020 11:18:06] "[37mGET /planetinfo/Earth HTTP/1.1[0m" 200 -
+2020-04-19 11:18:30,635 INFO : Mars planet added
+2020-04-19 11:18:30,637 INFO : 127.0.0.1 - - [19/Apr/2020 11:18:30] "[37mPOST /planet HTTP/1.1[0m" 200 -

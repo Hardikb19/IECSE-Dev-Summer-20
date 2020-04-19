@@ -1,0 +1,16 @@
+2020-04-19 11:50:14,675 INFO : Homepage returned
+2020-04-19 11:50:14,675 INFO : 127.0.0.1 - - [19/Apr/2020 11:50:14] "[37mGET / HTTP/1.1[0m" 200 -
+2020-04-19 11:50:53,066 INFO : abcd user created
+2020-04-19 11:50:53,067 INFO : 127.0.0.1 - - [19/Apr/2020 11:50:53] "[37mPOST /signup HTTP/1.1[0m" 200 -
+2020-04-19 11:51:10,246 ERROR : User abcd already exists
+2020-04-19 11:51:10,246 INFO : 127.0.0.1 - - [19/Apr/2020 11:51:10] "[37mPOST /signup HTTP/1.1[0m" 200 -
+2020-04-19 11:51:30,476 ERROR : No data sent
+2020-04-19 11:51:30,476 INFO : 127.0.0.1 - - [19/Apr/2020 11:51:30] "[37mPOST /signup HTTP/1.1[0m" 200 -
+2020-04-19 11:51:46,685 WARNING : Wrong input format
+2020-04-19 11:51:46,685 INFO : 127.0.0.1 - - [19/Apr/2020 11:51:46] "[37mPOST /signup HTTP/1.1[0m" 200 -
+2020-04-19 11:52:16,387 ERROR : No such user
+2020-04-19 11:52:16,388 INFO : 127.0.0.1 - - [19/Apr/2020 11:52:16] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-04-19 11:52:46,829 INFO : Incorrect credentials
+2020-04-19 11:52:46,831 INFO : 127.0.0.1 - - [19/Apr/2020 11:52:46] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-04-19 11:52:57,022 INFO : User authentication successful
+2020-04-19 11:52:57,022 INFO : 127.0.0.1 - - [19/Apr/2020 11:52:57] "[37mPOST /login HTTP/1.1[0m" 200 -
