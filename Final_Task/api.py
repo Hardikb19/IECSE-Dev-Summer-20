@@ -28,7 +28,7 @@ def query():
                 r.set(data,out,86400)
                 return jsonify(out)
             else:
-                out=wikipedia.summary(data)
+                out=wikipedia.WikipediaPage(title=data).summary
                 if out:
                     r.set(data,out,86400)
                     df_app.insert({'key': data, 'value': out})
