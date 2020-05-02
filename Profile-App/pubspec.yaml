@@ -21,4 +21,13 @@ flutter:
   uses-material-design: true
   
   assets:
-   - assets/
+   - assets/images/
+   - assets/fonts/
+
+  fonts:
+    - family: Galada
+      fonts:
+        - asset: assets/fonts/Galada-Regular.ttf
+    - family: Trajan Pro
+      fonts:
+        - asset: assets/fonts/RobotoCondensed-Bold.ttf
