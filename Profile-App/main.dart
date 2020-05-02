@@ -34,7 +34,7 @@ class _ProfilePageState extends State<ProfilePage> {
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 image: DecorationImage(
-                  image: AssetImage('assets/profile-pic.jpg'),
+                  image: AssetImage('assets/images/profile-pic.jpg'),
                 ),
                 border: Border.all(color: Colors.white),
               ),
@@ -44,17 +44,17 @@ class _ProfilePageState extends State<ProfilePage> {
               'Adit Luhadia',
               style: TextStyle(
                 color: Colors.white,
-                fontWeight: FontWeight.bold,
-                fontSize: 30.0,
+                fontSize: 50.0,
+                fontFamily: 'Galada',
               ),
             ),
-            SizedBox(height: 20.0),
+            SizedBox(height: 10.0),
             Text(
               'FLUTTER DEVELOPER',
               style: TextStyle(
-                color: Colors.white,
-                fontSize: 20.0,
-              ),
+                  color: Colors.white,
+                  fontSize: 20.0,
+                  fontFamily: 'RobotoCondensed'),
             ),
             SizedBox(height: 20.0),
             infoTile(icon: Icons.phone_android, title: '+91 9351496916'),
